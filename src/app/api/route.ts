@@ -2,5 +2,5 @@
 import Next from 'next'
 export async function GET()
 {
-    return "Hello World"
+    return new Response ("Hello World")
 }
